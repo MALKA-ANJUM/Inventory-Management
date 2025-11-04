@@ -1,24 +1,71 @@
-# Inventory Management System
+🧾 Inventory Management System
+--
+A full-stack Inventory Management web application built using Laravel (backend) and React (frontend).
+This system allows users to manage products, including adding, updating, deleting, and viewing stock quantities with real-time updates.
 
-A full-stack app built with **Laravel (backend)** and **React (frontend)**.
+🚀 Features
+--
+🔐 Token-based Authentication – Register, Login, and Logout securely
 
-## 🚀 Quick Start
+📦 Product Management (CRUD) – Create, Read, Update, Delete products
 
-### Requirements
-- PHP 8+
-- Composer
-- MySQL
-- Node.js (optional, only if rebuilding frontend)
+📊 Stock Management – Track stock levels and product availability
 
-### Steps
+🧩 Dynamic Variant Support – Handle multiple product variants with separate stock quantities
 
-1. Extract the zip.
-2. Go to the backend folder:
-   ```bash
-   cd backend
-   composer install
-   cp .env.example .env
-   php artisan key:generate
-   php artisan migrate
-   php artisan serve
+🎨 Responsive UI – Built with Bootstrap 5
+
+🔄 Token-based API communication between React and Laravel
+
+🛠️ Tech Stack
+Layer	Technology
+Frontend	React, Bootstrap 5, Axios, Vite
+Backend	Laravel 10 (PHP 8+), Sanctum
+Database	MySQL
+
+
+⚙️ Installation Guide
+🔹 1. Clone the Repository
+```bash
+git clone https://github.com/MALKA-ANJUM/Inventory-Management.git
+cd Inventory-Management
 ```
+
+🔹 2. Backend Setup (Laravel)
+```bash
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+```
+
+
+Then update your .env file:
+
+```bash
+DB_DATABASE=inventory_management
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+
+Run migrations:
+```bash
+php artisan migrate
+```
+
+
+Start the Laravel server:
+```bash
+php artisan serve
+```
+
+By default, the backend will run at:
+```bash
+👉 http://127.0.0.1:8000
+```
+
+💡 Developer
+
+👩‍💻 Malka Anjum
+Full Stack Developer (Laravel + React)
