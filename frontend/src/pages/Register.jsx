@@ -33,49 +33,49 @@ export default function Register() {
                 </div>
 
                 <form onSubmit={handleSubmit}>
-                <input
-                    className="form-control mb-2"
-                    name="name"
-                    placeholder="Name"
-                    onChange={handleChange} required
-                />
+                    <input
+                        className="form-control mb-2"
+                        name="name"
+                        placeholder="Name"
+                        onChange={handleChange} required
+                    />
 
-                <input
-                    className="form-control mb-2"
-                    name="email"
-                    placeholder="Email"
-                    onChange={handleChange} required
-                />
+                    <input
+                        className="form-control mb-2"
+                        name="email"
+                        placeholder="Email"
+                        onChange={handleChange} required
+                    />
 
-                <input
-                    type="password"
-                    className="form-control mb-2"
-                    name="password"
-                    placeholder="Password"
-                    onChange={handleChange} required
-                />
+                    <input
+                        type="password"
+                        className="form-control mb-2"
+                        name="password"
+                        placeholder="Password"
+                        onChange={handleChange} required
+                    />
 
-                <input
-                    type="password"
-                    className="form-control mb-2"
-                    name="password_confirmation"
-                    placeholder="Confirm Password"
-                    onChange={handleChange} required
-                />
+                    <input
+                        type="password"
+                        className="form-control mb-2"
+                        name="password_confirmation"
+                        placeholder="Confirm Password"
+                        onChange={handleChange} required
+                    />
 
-                <button className="btn btn-success w-100">Register</button>
+                    <button className="btn btn-success w-100">Register</button>
                 </form>
                 <div className="text-center mt-3">
-                <p className="text-muted mb-0">
-                    Already have an account?{" "}
-                    <span
-                    className="text-success fw-semibold pointer"
-                    style={{ cursor: "pointer" }}
-                    onClick={() => navigate("/login")}
-                    >
-                    Login
-                    </span>
-                </p>
+                    <p className="text-muted mb-0">
+                        Already have an account?{" "}
+                        <span
+                        className="text-success fw-semibold pointer"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => navigate("/login")}
+                        >
+                        Login
+                        </span>
+                    </p>
                 </div>
             </div>
         </div>
