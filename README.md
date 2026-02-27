@@ -1,6 +1,6 @@
 🧾 Inventory Management System
 --
-A full-stack Inventory Management web application built using Laravel (backend) and React (frontend).
+A full-stack Inventory Management web application built using Laravel  and React.
 This system allows users to manage products, including adding, updating, deleting, and viewing stock quantities with real-time updates.
 
 🚀 Features
