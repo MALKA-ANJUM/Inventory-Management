@@ -67,4 +67,4 @@ By default, the backend will run at:
 💡 Developer
 
 👩‍💻 Malka Anjum
-Full Stack Developer (Laravel + React)
+Full Stack Developer
